@@ -15,7 +15,7 @@ final class EquinoxLogger extends AbstractLogger {
     super(name, messageFactory);
     this.logger = logger;
   }
-  
+
   EquinoxLogger(String name, org.eclipse.equinox.log.Logger logger) {
     super(name);
     this.logger = logger;
