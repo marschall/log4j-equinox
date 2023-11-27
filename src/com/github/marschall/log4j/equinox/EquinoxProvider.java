@@ -1,5 +1,6 @@
 package com.github.marschall.log4j.equinox;
 
+import org.apache.logging.log4j.spi.NoOpThreadContextMap;
 import org.apache.logging.log4j.spi.Provider;
 
 /**
@@ -11,7 +12,8 @@ public final class EquinoxProvider extends Provider {
    * Default constructor called by service loader.
    */
   public EquinoxProvider() {
-    super(16, "2.7.2", EquinoxLoggerContextFactory.class);
+    // see org.apache.logging.log4j.util.ProviderUtil.COMPATIBLE_API_VERSIONS
+    super(16, "2.6.0", EquinoxLoggerContextFactory.class, NoOpThreadContextMap.class);
   }
 
 }
