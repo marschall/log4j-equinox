@@ -2,7 +2,7 @@ Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: %pluginName
 Bundle-SymbolicName: com.github.marschall.log4j-equinox;singleton:=true
-Bundle-Version: 2.22.2
+Bundle-Version: 2.22.3.qualifier
 Export-Package: com.github.marschall.log4j.equinox
 Bundle-Vendor: %providerName
 Bundle-RequiredExecutionEnvironment: JavaSE-1.8
