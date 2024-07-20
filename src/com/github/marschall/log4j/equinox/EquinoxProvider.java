@@ -13,7 +13,7 @@ public final class EquinoxProvider extends Provider {
    */
   public EquinoxProvider() {
     // see org.apache.logging.log4j.util.ProviderUtil.COMPATIBLE_API_VERSIONS
-    super(16, "2.6.0", EquinoxLoggerContextFactory.class, NoOpThreadContextMap.class);
+    super(17, "2.6.0", EquinoxLoggerContextFactory.class, NoOpThreadContextMap.class);
   }
 
 }
